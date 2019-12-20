@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "sandeepchakkolth/schoolapp",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "8090"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}

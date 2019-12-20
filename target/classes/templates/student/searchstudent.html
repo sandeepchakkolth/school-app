@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:th="http://www.thymeleaf.org">
+<head>
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css">
+   
+</head>
+<body>
+<div class="container">
+<form class="form-horizontal" role="form" method="GET" th:action="@{/home/student/searchstudent/sandeep}" th:object="${student}">
+<h5>Filter With</h5>
+ <div class="form-group row">
+ <div class="col-xs-2">
+        <label for="ex1">Name</label>
+        <input class="form-control" id="ex1" type="text">
+        <label for="sel1">Select Class:</label>
+	 	 <select class="form-control" id="sel1">
+		    <option>Nursery</option>
+		    <option>LKG</option>
+		    <option>UKG</option>
+		    <option>One</option>
+		    <option>Two</option>
+		    <option>Three</option>
+		    <option>Four</option>
+		    <option>Five</option>
+		    <option>Six</option>
+		    <option>Seven</option>
+		    <option>Eight</option>
+		    <option>Nine</option>
+		    <option>Ten</option>
+	 	 </select>
+      	</div>
+      </div>
+      <div class="row">
+         <div class="col-xs-2"></div>
+             <button type="submit" class="btn btn-success"><i class="fa fa-user-plus"></i> Search</button>
+         </div>
+      </form>
+ </div>
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Class</th>
+        <th>Father Name</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Krishiv</td>
+        <td>Kartikeya</td>
+        <td>Nursery</td>
+        <td>Sandeep</td>
+        <td>8095978799</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+</body>
+</html>

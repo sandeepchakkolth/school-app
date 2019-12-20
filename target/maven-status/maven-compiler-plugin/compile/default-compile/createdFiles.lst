@@ -1,0 +1,15 @@
+com\example\demo\service\StudentService.class
+com\example\demo\configuration\SecurityConfiguration.class
+com\example\demo\service\StudentServiceImpl.class
+com\example\demo\service\UserServiceImpl.class
+com\example\demo\repository\RoleRepository.class
+com\example\demo\service\UserService.class
+com\example\demo\model\Student.class
+com\example\demo\model\User.class
+com\example\demo\exception\RecordNotFoundException.class
+com\example\demo\configuration\WebMvcConfig.class
+com\example\demo\repository\UserRepository.class
+com\example\demo\repository\StudentRepository.class
+com\example\demo\SchoolAppApplication.class
+com\example\demo\controller\UserController.class
+com\example\demo\model\Role.class
